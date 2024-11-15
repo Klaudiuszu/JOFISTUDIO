@@ -60,7 +60,7 @@ const MenuOverlay = ({ links, offerLinks, navbarOpen, locale, setNavbarOpenClose
           onClick={() => handleLinkClick(index)}
           className="cursor-pointer focus:outline-none menu-link textButtonWrapper"
           >
-          {activeLink === index && <img className="inline mr-2" />}
+          {activeLink === index && <img className="inline" />}
           <NavLink href={link.path} title={link.title} />
         </button>
       </li>

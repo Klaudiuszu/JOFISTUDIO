@@ -22,7 +22,7 @@ const Consultation = () => {
       >
         <div className="flex flex-col items-center py-8 3xl:pt-0 px-4 3xl:h-[396px]">
           <div className="text-center justify-center gap-4 mt-4 items-center lg:items-start lg:text-left flex flex-col ">
-            <h2 className="xl:text-custom-85 text-custom-36 text-center tracking-[-1.7px] leading-normal xl:leading-[90px]">
+            <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 text-center tracking-[-1.7px] leading-normal xl:leading-[87px]">
               {tString('consultation.header')}
             </h2>
           </div>

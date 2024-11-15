@@ -28,6 +28,11 @@
 }
 
 @font-face {
+    font-family: 'mundial-regular';
+    src: url(./fonts/MundialRegular.otf);
+}
+
+@font-face {
     font-family: 'mundial-Bold';
     src: url(./fonts/MundialBold.otf);
 }
@@ -57,7 +62,7 @@ h3 {
 
 h4 {
     font-family: 'PPHatton-light';
-    line-height: 32px !important;
+    line-height: 28px !important;
 }
 
 h5 {
@@ -119,6 +124,10 @@ li {
 
 .mundial-font {
     font-family: 'mundial-Light';
+}
+
+.mundial-regular {
+    font-family: 'mundial-regular';
 }
 
 .mundial-Bold {

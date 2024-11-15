@@ -23,7 +23,7 @@ const ConsultationMain = () => {
                 transition={{ duration: 0.5 }}
                 className="lg:mt-[150px]"
             >
-                    <h2 className="xl:text-custom-85 text-custom-36 pt-20 sm:pt-0 text-center h-[80px]">
+                    <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 pt-20 sm:pt-0 text-center xl:leading-[87px] h-[80px]">
                         {tString('email.header')}
                     </h2>
                 <div className="flex flex-col lg:grid lg:grid-cols-2 items-center pt-20 pb-8 lg:gap-y-0 mx-auto mt-10 3xl:pt-0">

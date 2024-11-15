@@ -40,7 +40,7 @@ const ConsultingSection = () => {
         <div className="flex flex-col xl:mt-[80px] xl:grid xl:grid-cols-2 items-center py-8 3xl:pb-[100px] 3xl:mt-[180px] xl:gap-y-0 mx-auto mt-10 3xl:items-end 3xl:gap-x-28">
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0 3xl:pb-0">
             <div className="justify-center md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px] 3xl:h-[330px]">
-              <h2 className="xl:text-custom-85 text-custom-36 text-center leading-normal h-[80px]">
+              <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 text-center leading-normal xl:leading-[87px] h-[80px]">
                 {tString('consulting.header1')}
               </h2>
               <ul className=" max-w-[650px] 3xl:max-w-[770px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">

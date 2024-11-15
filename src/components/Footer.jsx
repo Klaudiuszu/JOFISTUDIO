@@ -31,11 +31,17 @@ const Footer = () => {
         router.push(`/${language}/formRegulations`);
     };
 
+    const hasAdditionalPath = () => {
+        const pathParts = router.asPath.split('/').filter(Boolean);
+        return pathParts[1] ? true : false;
+    };
+     console.log(hasAdditionalPath())
+
 
     return (
         <footer id="footer" ref={refSize} className="about-me-section max-w-screen-2xl lg:h-[704px] 3xl:w-[1440px] mx-auto flex flex-col">
             <div className="bg" style={{ height: `${height}px` }}></div>
-            <div className="lg:pb-[140px] px-[16px] lg:pt-[100px] py-[64px] flex flex-col lg:gap-[80px] items-center w-full">
+            <div className="lg:pb-[140px] px-[16px] lg:pt-[100px] py-[64px] 2xl:px-0 flex flex-col lg:gap-[80px] items-center w-full">
                 <div className="flex flex-col min-w-72 flex-wrap items-center justify-between w-full mx-auto 3xl:h-[257px]">
                     <div className="md:flex md:justify-between w-full">
                         <div className="grid grid-cols-2 w-full gap-8 2xl:gap-[80px] sm:gap-6 sm:grid-cols-4 text-[#000]">
@@ -76,7 +82,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="flex justify-start flex-col">
+                            <div className="flex justify-start flex-col 2xl:items-end">
                                 <h2 className="mb-4 text-[22px] mundial-Light-font uppercase font-semibold">
                                     {tString("footer.col4Media")}
                                 </h2>
@@ -85,9 +91,9 @@ const Footer = () => {
                                         <a href="https://www.facebook.com/profile.php?id=61565497494822">
                                             <img src="/images/fb.png" className=" w-136 h-8" />
                                         </a>
-                                        <a href="https://www.instagram.com/jofi_studio/">
+                                        {<a href="https://www.instagram.com/jofi_studio/">
                                             <img src="/images/inst.png" className=" w-136 h-8" />
-                                        </a>
+                                        </a>}
                                         <a href="https://www.linkedin.com/company/jofi-studio/">
                                             <img src="/images/linkedin.png" className=" w-136 h-8" />
                                         </a>

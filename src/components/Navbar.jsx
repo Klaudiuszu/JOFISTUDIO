@@ -71,7 +71,7 @@ const Navbar = () => {
               className="flex items-center py-2 rounded text-slate-200 navbar-button gap-2 relative top-[2px]"
             >
               <Bars3Icon className="h-[39px] w-8 z-10 relative bottom-[2px]" />
-              <label className="hidden lg:block text-center relative mundial-light font-bold text-[22px]  mundial-font">
+              <label className="hidden lg:block text-center relative text-[22px]  mundial-regular">
                 MENU
               </label>
             </button>
@@ -82,8 +82,8 @@ const Navbar = () => {
             </a>
           </div>
           <Link 
-            href={`/${language}/#contact`}
-            className="flex-1 flex text-end h-full items-end md:flex xs:hidden justify-end lg:block relative top-1 cursor-pointer mundial-font text-[22px] font-semibold pb-[6px]"
+            href={`/${language}/consultation`}
+            className="flex-1 flex text-end h-full items-end md:flex xs:hidden justify-end lg:block relative top-1 cursor-pointer mundial-regular text-[22px] font-medium pb-[6px]"
             style={{ textTransform: 'uppercase' }}
           >
               {tString('navbar.consultation')}

@@ -44,7 +44,7 @@ const FurnitureSection = () => {
         <div className="flex flex-col lg:mt-[80px] lg:grid lg:grid-cols-2 items-center py-8 lg:gap-72 lg:gap-y-0 mx-auto mt-10 3xl:mt-[110px]">
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
             <div className="justify-center md:text-5xl text-4xl items-center gap-4 3xl:gap-0 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
-              <h2 className="xl:text-custom-85 text-custom-36 text-center h-[80px]">
+              <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 text-center xl:leading-[87px] h-[80px]">
                 {tString("furniture.header1")}
               </h2>
               <ul className=" max-w-[650px] 3xl:max-w-[750px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">

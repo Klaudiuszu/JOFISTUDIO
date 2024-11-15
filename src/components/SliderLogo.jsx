@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'primereact/carousel';
-import slide1 from '../../public/images/logo1.jpg';
-import slide2 from '../../public/images/logo2.jpg';
-import slide3 from '../../public/images/logo3.jpg';
-import slide4 from '../../public/images/logo4.jpg';
-import slide5 from '../../public/images/logo5.jpg';
-import slide6 from '../../public/images/logo6.jpg';
+import slide1 from '../../public/images/logo1.JPG';
+import slide2 from '../../public/images/logo2.JPG';
+import slide3 from '../../public/images/logo3.JPG';
+import slide4 from '../../public/images/logo4.JPG';
+import slide5 from '../../public/images/logo5.JPG';
+import slide6 from '../../public/images/logo6.JPG';
 import leftArrow from '../../public/images/leftArrow.png';
 import rightArrow from '../../public/images/rightArrow.png';
 import { useTranslation } from "next-translations/hooks";
@@ -146,7 +146,7 @@ const SliderLogo = () => {
       <section className="w-full flex max-w-screen-2xl flex-col justify-center items-center  3xl:pl-[0]">
         <div className="left-0 w-full">
           <div className="flex flex-col lg:grid md:text-5xl text-4xl gap-8 lg:grid-cols-1 pt-8 lg:gap-16">
-            <h2 className="md:text-custom-85 flex justify-center xl:justify-start pl-[0] xl:pl-[120px] 3xl:pl-[0]">{tString('section4.header')}</h2>
+            <h2 style={{letterSpacing: '-2px'}} className="md:text-custom-85 flex justify-center xl:leading-[87px] xl:justify-start pl-[0] xl:pl-[120px] 3xl:pl-[0]">{tString('section4.header')}</h2>
           </div>
         </div>
       </section>
@@ -159,8 +159,8 @@ const SliderLogo = () => {
           numScroll={1}
           responsiveOptions={responsiveOptions}
           circular
-          prevIcon={<img src={leftArrow.src} alt="Previous" className="w-8 h-8 md:p-1 md:w-[55px] md:h-[55px] rounded-full shadow bg-white/80 text-gray-800 hover:bg-white" />}
-          nextIcon={<img src={rightArrow.src} alt="Next" className="w-8 h-8 md:p-1 md:w-[55px] md:h-[55px] rounded-full shadow bg-white/80 text-gray-800 hover:bg-white" />}
+          prevIcon={<img src={leftArrow.src} alt="Previous" className="w-10 h-10 md:p-1 md:w-[55px] md:h-[55px] rounded-full bg-white/30 text-gray-800 hover:bg-white" />}
+          nextIcon={<img src={rightArrow.src} alt="Next" className="w-10 h-10 md:p-1 md:w-[55px] md:h-[55px] rounded-full bg-white/30 text-gray-800 hover:bg-white" />}
           className="custom-carousel"
         />
       </div></div>
