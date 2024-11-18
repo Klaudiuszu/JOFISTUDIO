@@ -37,6 +37,11 @@
     src: url(./fonts/MundialBold.otf);
 }
 
+@font-face {
+    font-family: 'PPhatton-Regular';
+    src: url(./fonts/PPHatton-Regular.ttf);
+}
+
 input,
 textarea,
 button,
@@ -120,6 +125,10 @@ li {
 }
 .hatton-light {
     font-family: 'PPHatton-light';
+}
+
+.hatton-regular {
+    font-family: 'PPhatton-Regular';
 }
 
 .mundial-font {
