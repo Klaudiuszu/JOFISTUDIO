@@ -38,7 +38,7 @@ const EmailSection = () => {
         <div className="flex flex-col lg:mt-[80px] mt-10 lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-4 lg:gap-16 lg:px-16 3xl:px-0 text-[#171717]">
           <div className="justify-center items-start md:text-5xl text-4xl text-center gap-4 mt-4 lg:text-left flex flex-col h-full">
             <h2 className="md:text-custom-85 mb-4" style={{ letterSpacing: '-2px' }}>{tString('email.header')}</h2>
-            <h3 className=" lg:px-0 sm:px-16 text-[20px] md:text-[28px] leading-[28px] lowercase mundial-font text-left">
+            <h3 className=" lg:px-0 sm:px-16 text-[20px] md:text-[28px] leading-[28px] normal-case mundial-font text-left 3xl:w-[1380px]">
               {tString('email.info')}
             </h3>
             <p className=" mb-5 font-bold mundial-font leading-[28px] lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
@@ -51,13 +51,13 @@ const EmailSection = () => {
             <p className="font-bold mb-5 mundial-font leading-[28px] lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
               {tString('email.step0A')}
             </p>
-            <p className="email-paragraph relative mundial-font md:text-[24px] pl-6 mb-5 leading-[28px] before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 text-base text-left">
+            <p className="email-paragraph relative mundial-font md:text-[24px] pl-6 mb-5 leading-[28px] before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 text-base text-left 3xl:w-[720px]">
               {tString('email.step1')}
             </p>
-            <p className="email-paragraph relative mundial-font mb-5 leading-[28px] before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
+            <p className="email-paragraph relative mundial-font mb-5 leading-[28px] before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[24px] text-base text-left 3xl:w-[720px]">
               {tString('email.step2')}
             </p>
-            <p className="email-paragraph relative mundial-font mb-5 leading-[28px] before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
+            <p className="email-paragraph relative mundial-font mb-5 leading-[28px] before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[24px] text-base text-left 3xl:w-[720px]">
               {tString('email.step3')}
             </p>
           </div>

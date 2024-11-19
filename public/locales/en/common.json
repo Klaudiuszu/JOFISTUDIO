@@ -12,7 +12,7 @@
     },
     "about": {
         "header": "We Focus on Collaboration",
-        "info": "We respect our clients' budget and time. We will guide you step by step through the carefully planned design process. We ensure good communication.",
+        "info": "We value our clients' budget and time. We will guide you step by step through our carefully planned design process, ensuring clear communication and attention to all key aspects needed to achieve your goals.",
         "button": "More About Us"
     },
     "section3": {
@@ -23,11 +23,11 @@
         "header": "They Trusted Us"
     },
     "email": {
-        "header": "Free Consultation",
-        "info": "The free consultation is 20 minutes long, and you can use to consult any topic related to architecture and interior design. In our studio, we dedicate it to people who want to clarify the offer, discuss functionalities, search for information, and are hesitant about choosing the right solution and service for themselves.",
+        "header": "Any questions?",
+        "info": "A free consultation offers 20 minutes to discuss any topic related to architecture and interior design. In our studio, it's dedicated to those looking to refine an offer, discuss functionality, seek information, or decide on the best solutions and services for their needs.",
         "step0": "We always arrange a date suitable for both parties! Each consultation is individually arranged. The whole team invites you to visit our company and contact us online!",
         "step0A": "How to prepare for the consultation?",
-        "step1": "If you can, prepare technical documentation and photos of a given investment. We will ask you to send it to our e-mail address on the day of the consultation. Thanks to this, our studio will be able to prepare options appropriate to your needs.",
+        "step1": "If available, prepare the technical documentation and photos of the project. We’ll ask you to send them to our email address on the day of the consultation. This will help our studio tailor solutions to your needs. In the contact form, specify the type of consultation: online or in our design office.",
         "step2": "Think about your needs and what you want to achieve as a result of the consultation. Write down each idea and your goals. Tell us directly about your expectations at the beginning. We will be interested in your opinions and thoughts.",
         "step3": "Feel free to ask any questions during the consultation. This is important! It allows us to better understand and help you. Each conversation will be led by a qualified architect, based on his/her knowledge and experience. If the topic requires deeper analysis and consultation with the rest of the team, he/she will come back with a reliable answer.",
         "name": "Full Name",
@@ -66,7 +66,7 @@
     "realisation": {
         "header": "Architecture",
         "button": "Discover our projects",
-        "info": "Our studio offers services for each stage of the project, depending on the needs. We focus on understanding the client, which helps in the process of project preparation."
+        "info": "Our studio offers services at every stage of the investment process. We pay close attention to accurately identifying the needs and expectations of our clients. We prioritize high quality and clear collaboration. We create ergonomic spaces, with particular focus on their positive impact on user well-being."
     },
     "fillar": {
         "header": "The pillars of the JOFI STUDIO design process",
@@ -77,7 +77,7 @@
         "f4Header": "The needs of a client",
         "f5Header": "Stylistics",
         "f6Header": "Other individual",
-        "f2Info": "Object purpose and design principles",
+        "f2Info": "Object purpose and design principles.",
         "f3Info": "Client guidelines regarding expenditures for project and implementation purposes.",
         "f4Info": "Client needs / guidelines / requirements concerning space and its equipment.",
         "f5Info": "Client preferences regarding visual aspects.",

@@ -50,7 +50,7 @@ const FurnitureSection = () => {
               <ul className=" max-w-[650px] 3xl:max-w-[750px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-y-4  items-center">
                   <div className="relative"></div>
-                  <a className="lg:w-[700px] 3xl:w-[1000px] leading-normal xl:pt-[60px] 3xl:pt-[50px] mundial-font">
+                  <a className="lg:w-[680px] 3xl:w-[1000px] leading-normal xl:pt-[60px] 3xl:pt-[50px] mundial-font">
                     {tString("furniture.info1")}
                   </a>
                 </li>

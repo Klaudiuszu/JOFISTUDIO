@@ -31,7 +31,7 @@ const TextSection = () => {
       >
         <div className="flex flex-col	lg:mr-[62px] lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-4 lg:gap-16 3xl:px-0 lg:pb-16 lg:pt-0">
           <div className="flex justify-center about-me-section-wrapper text-[#171717]">
-            <h4 className="xl:px-0 max-w-4xl sm:px-16 md:text-[24px] text-left mundial-font 3xl:max-w-[967px]">
+            <h4 className="xl:px-0 max-w-4xl sm:px-16 md:text-[24px] text-left mundial-font 3xl:max-w-[960px]">
               {tString('section3.info')}
             </h4>
           </div>

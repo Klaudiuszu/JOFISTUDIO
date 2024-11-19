@@ -97,7 +97,7 @@ const ConsultingSection = () => {
           <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 3xl:pl-0 text-[#171717] 3xl:pt-[20px] 3xl:relative 3xl:w-[700px]">
             <div className="md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px] 3xl:pt-[30px] justify-start">
               <h5 className="font-bold text-4xl xl:text-[44px] mundial-font mb-4">{tString('consulting.header3')}</h5>
-              <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
+              <ul className=" max-w-[630px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-y-4 items-center">
                   <div className="relative"></div>
                   <a className="leading-[28px] mundial-font">{tString('consulting.info3')}</a>

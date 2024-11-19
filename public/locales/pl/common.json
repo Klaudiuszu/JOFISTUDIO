@@ -12,7 +12,7 @@
     },
     "about": {
         "header": "Stawiamy na współpracę",
-        "info": "Szanujemy budżet i czas naszych klientów. Przeprowadzimy Cię krok po kroku przez zaplanowany przez nas starannie proces projektowy. Dbamy o dobrą komunikację.",
+        "info": "Szanujemy budżet i czas naszych klientów. Przeprowadzimy Cię krok po kroku przez starannie przez nas zaplanowany proces projektowy, dbając przy tym o dobrą komunikację i inne, ważne dla osiągnięcia celu aspekty.",
         "button": "Poznaj nas"
     },
     "section3": {
@@ -23,11 +23,11 @@
         "header": "Zaufali nam"
     },
     "email": {
-        "header": "Bezpłatna Konsultacja",
-        "info": "Bezpłatna konsultacja to 20 minut, które możesz wykorzystać naskonsultowanie dowolnego tematu związanego z architekturą i projektowaniem  wnętrz. W naszym studio dedykujemy ją osobom, które chcą doprecyzować ofertę, omówić funkcje, szukają informacji, wahają się, co do wyboru odpowiedniego rozwiązania i usługi dla siebie.",
+        "header": "Masz pytania?",
+        "info": "Bezpłatna konsultacja to 20 minut, które możesz wykorzystać na konsultacje dowolnego tematu związanego z architekturą i projektowaniem  wnętrz. W naszym studio dedykujemy ją osobom, które chcą doprecyzować ofertę, omówić funkcje, szukają informacji, wahają się, co do wyboru odpowiedniego rozwiązania i usługi dla siebie.",
         "step0": "Zawsze umawiamy termin dostosowany do dostępności obu stron! Każda konsultacja jest indywidualna. Całym zespołem zapraszamy do odwiedzenia naszej firmy i kontaktu online!",
         "step0A": "Jak przygotować się do konsultacji?",
-        "step1": "Jeżeli posiadasz, przygotuj dokumentację techniczną i zdjęcia danej inwestycji. Poprosimy Cię o wysłanie jej na nasz adres mailowy, w dniu konsultacji. Dzięki temu nasze studio będzie w stanie przygotować działania odpowiednie dla Twojej potrzeby.",
+        "step1": "Jeżeli posiadasz, przygotuj dokumentację techniczną i zdjęcia danej inwestycji. Poprosimy Cię o wysłanie jej na nasz adres mailowy, w dniu konsultacji. Dzięki temu nasze studio będzie w stanie przygotować działania odpowiednie dla Twojej potrzeby. W formularzu kontaktowym wpisz formę konsultacji: online lub konsultacja w naszym biurze projektowym.",
         "step2": "Pomyśl o tym, czego potrzebujesz i z czym chcesz wyjść z danej konsultacji. Zapisz każdy pomysł i swoje cele. Powiedz nam na początku wprost o swoich oczekiwaniach. Będziemy ciekawi Twoich opinii i przemyśleń.",
         "step3": "W trakcie konsultacji zadawaj dowolne pytania. To ważne! Pozwala nam to lepiej Cię zrozumieć i pomóc. Każdą rozmowę poprowadzi wykwalifikowany architekt, w oparciu o swoją wiedzę i doświadczenie. Jeżeli temat będzie wymagał głębszej analizy i konsultacji z resztą zespołu - wróci z rzetelną odpowiedzią.",
         "name": "Imię i nazwisko",
@@ -59,7 +59,7 @@
         "button": "Poznaj nasze realizacje"
     },
     "consultation": {
-        "header": "Zapraszamy na darmową konsultacje",
+        "header": "Zapraszamy na darmową konsultację",
         "button": "Umów się",
         "info": "W czasie 20 minut porozmawiamy o twoich wyzwaniach i poszukamy wstępnych rozwiązań",
         "info2": "Oferujemy kompleksowe wsparcie i profesjonalne doradztwo przy planowaniu i aranżacji przestrzeni mieszkalnych, biurowych, handlowych oraz usługowych. Nasz zespół składa się z wysoko wykwalifikowanych architektów, projektantów oraz stylistów wnętrz."
@@ -67,7 +67,7 @@
     "realisation": {
         "header": "Architektura",
         "button": "Poznaj nasze realizacje",
-        "info": "Nasze studio oferuje usługi na każdym etapie inwestycji, w zależności od potrzeb. Przykładamy uwagę do tego, by zrozumieć klienta, co pozwala na stworzenie dobrego projektu. Dbamy o wysoką jakość i klarowną współpracę, w oparciu o współczesne technologie. Tworzymy obiekty będące miejscem spotkania, łączące ludzi i dziedziny - w oparciu o ideę, posiadające charakter niematerialny."
+        "info": "Nasze studio oferuje usługi na każdym etapie inwestycji. Przykładamy uwagę do precyzyjnego nazwania potrzeb i oczekiwań klienta. Dbamy o wysoką jakość i klarowną współpracę. Tworzymy obiekty ergonomiczne, ze szczególną uwagą na ich pozytywny wpływ na dobrostan użytkownika."
     },
     "fillar": {
         "header": "6 Filarów projektowych",
@@ -78,16 +78,16 @@
         "f4Header": "Potrzeby Klienta",
         "f5Header": "Stylistyka",
         "f6Header": "Inne indywidualne",
-        "f2Info": "Przeznaczenie obiektu oraz zasady projektowe",
-        "f3Info": "Wytyczne klienta dotyczące wydatków na cele projektowe, realizacyjne",
-        "f4Info": "Potrzeby/ wytyczne/ wymagania klienta dotyczące przestrzeni i jego wyposażenia.",
-        "f5Info": "Upodobania klienta dotyczące aspektów wizualnych.",
+        "f2Info": "Przeznaczenie obiektu oraz zasady projektowe.",
+        "f3Info": "Wytyczne Klienta dotyczące wydatków na cele projektowe, realizacyjne.",
+        "f4Info": "Potrzeby/ wytyczne/ wymagania Klienta dotyczące przestrzeni i wyposażenia.",
+        "f5Info": "Upodobania Klienta dotyczące aspektów wizualnych.",
         "f6Info": "Elementy specyficzne dla każdego projektu, ściśle z nim związane.",
         "f1Info": "Myśl przewodnia projektu, narzędzie do uzyskania ducha miejsca - indywidualności danej przestrzeni, zbiór zasad wiodących w projekcie."
     },
     "consulting": {
         "header1": "Doradztwo",
-        "info1": "Oferujemy kompleksowe wsparcie i profesjonalne doradztwo przy planowaniu i aranżacji przestrzeni mieszkalnych, biurowych, handlowych oraz usługowych. Nasz zespół składa się z wysoko wykwalifikowanych rchitektów, projektantów oraz stylistów wnętrz.",
+        "info1": "Oferujemy kompleksowe wsparcie i profesjonalne doradztwo przy planowaniu i aranżacji przestrzeni mieszkalnych, biurowych, handlowych oraz usługowych. Nasz zespół składa się z wysoko wykwalifikowanych architektów, projektantów oraz stylistów wnętrz.",
         "header2": "Pomagamy w zakresie:",
         "header3": "Czym różni się doradztwo od darmowej konsultacji?",
         "dot2a": "procedur urzędowych",
@@ -123,7 +123,7 @@
     },
     "furniture": {
         "header1": "Meble",
-        "header2": "Nasze usługi obejmuja",
+        "header2": "Nasze usługi obejmują",
         "info1": "Oferujemy kompleksowe usługi w zakresie projektowania mebli w zabudowie oraz mebli wolnostojących. Nasz doświadczony w branży meblarskiej zespół projektantów z przyjemnością stworzy dla Państwa unikatowe i funkcjonalne projekty oraz sztukę użytkową, dostosowaną do indywidualnych potrzeb i preferencji.",
         "dot2a": "projektowanie mebli kuchennych, łazienkowych, salonowych oraz sypialnianych w zabudowie, dzięki czemu optymalnie wykorzystają Państwo dostępną przestrzeń",
         "dot2b": "projektowanie przedmiotów użytkowych",

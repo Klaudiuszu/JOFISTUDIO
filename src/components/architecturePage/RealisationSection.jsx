@@ -35,7 +35,7 @@ const RealisationSection = () => {
               </h5>
               <h4
                 style={{ lineHeight: "normal" }}
-                className="text-center sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 2xl:pb-[30px] mundial-Light"
+                className="text-center sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 2xl:pb-[30px] mundial-Light 3xl:w-[600px]"
               >
                 {tString("realisation.info")}
               </h4>
