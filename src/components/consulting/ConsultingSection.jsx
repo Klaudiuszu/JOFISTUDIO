@@ -46,7 +46,7 @@ const ConsultingSection = () => {
               <ul className=" max-w-[650px] 3xl:max-w-[770px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-y-4 items-center">
                   <div className="relative"></div>
-                  <a className="lg:w-[600px] mundial-Light-font 3xl:w-[770px] xl:pt-[64px] leading-normal">{tString('consulting.info1')}</a>
+                  <a className="lg:w-[600px] mundial-font 3xl:w-[770px] xl:pt-[64px] leading-[28px]">{tString('consulting.info1')}</a>
                 </li>
               </ul>
             </div>
@@ -54,53 +54,53 @@ const ConsultingSection = () => {
           </div>
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 text-[#171717]">
             <div className="justify-center md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px] 3xl:h-[330px] 3xl:items-center 3xl:relative 3xl:left-10">
-              <img src="/images/consulting.png" alt="Consulting" />
+              <img className="relative 3xl:top-6" src="/images/consulting.png" alt="Consulting" />
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
+          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left 3xl:pt-[20px] flex flex-col h-full lg:h-[600px]">
-              <h5 className="font-bold text-4xl h-[80px] leading-normal xl:text-[44px] mb-4">{tString('consulting.header2')}</h5>
+              <h5 className="font-bold text-4xl h-[80px] xl:text-[44px] mb-4 mundial-font">{tString('consulting.header2')}</h5>
               <ul className=" max-w-[650px] 3xl:w-[770px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-4 items-center">
                   <div className="relative bottom-1 min-w-2 Rectangle-1469"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2a')}</a>
+                  <a className="mundial-font  leading-[28px]">{tString('consulting.dot2a')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
                   <div className="relative min-w-2 Rectangle-1469"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2b')}</a>
+                  <a className=" leading-[28px] mundial-font">{tString('consulting.dot2b')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2c')}</a>
+                  <a className="leading-normal mundial-font">{tString('consulting.dot2c')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2d')}</a>
+                  <a className="leading-[28px] mundial-font">{tString('consulting.dot2d')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2e')}</a>
+                  <a className="leading-[28px] mundial-font">{tString('consulting.dot2e')}</a>
                 </li>
                 <li className="flex gap-4 items-start">
                   <div className="relative top-3 Rectangle-1469 min-w-2"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2f')}</a>
+                  <a className="leading-[28px] mundial-font">{tString('consulting.dot2f')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.dot2g')}</a>
+                  <a className="leading-[28px] mundial-font">{tString('consulting.dot2g')}</a>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 3xl:pl-0 text-[#171717] 3xl:relative 3xl:w-[700px]">
-            <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px] 3xl:pt-[30px]">
-              <h5 className="font-bold text-4xl xl:text-[44px] leading-tight mb-4">{tString('consulting.header3')}</h5>
+          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 3xl:pl-0 text-[#171717] 3xl:pt-[20px] 3xl:relative 3xl:w-[700px]">
+            <div className="md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px] 3xl:pt-[30px] justify-start">
+              <h5 className="font-bold text-4xl xl:text-[44px] mundial-font mb-4">{tString('consulting.header3')}</h5>
               <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-y-4 items-center">
                   <div className="relative"></div>
-                  <a className="leading-normal mundial-Light-font">{tString('consulting.info3')}</a>
+                  <a className="leading-[28px] mundial-font">{tString('consulting.info3')}</a>
                 </li>
               </ul>
             </div>
