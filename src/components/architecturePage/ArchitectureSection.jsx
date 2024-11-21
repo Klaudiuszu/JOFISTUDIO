@@ -33,7 +33,7 @@ const ArchitectureSection = () => {
               <h5 className="hatton-regular text-4xl h-[80px] xl:text-[39px] mb-4">{tString('architecture.headerRight')}</h5>
               <ul className="max-w-[650px] gap-4 flex flex-col lg:px-0 text-left xl:text-center sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-4 items-center">
-                  <div className="relative bottom-1 Rectangle-1469"></div>
+                  <div className="relative Rectangle-1469"></div>
                   <a className="mundial-regular">{tString('architecture.infoRightA')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
