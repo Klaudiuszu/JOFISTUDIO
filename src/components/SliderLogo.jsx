@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'primereact/carousel';
-import slide1 from '../../public/images/logo1.JPG';
-import slide2 from '../../public/images/logo2.JPG';
-import slide3 from '../../public/images/logo3.JPG';
-import slide4 from '../../public/images/logo4.JPG';
-import slide5 from '../../public/images/logo5.JPG';
-import slide6 from '../../public/images/logo6.JPG';
+import slide1 from '../../public/images/logo1.jpg';
+import slide2 from '../../public/images/logo2.jpg';
+import slide3 from '../../public/images/logo3.jpg';
+import slide4 from '../../public/images/logo4.jpg';
+import slide5 from '../../public/images/logo5.jpg';
+import slide6 from '../../public/images/logo6.jpg';
 import leftArrow from '../../public/images/leftArrow.png';
 import rightArrow from '../../public/images/rightArrow.png';
 import { useTranslation } from "next-translations/hooks";
