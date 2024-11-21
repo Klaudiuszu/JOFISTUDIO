@@ -63,7 +63,7 @@ const ConsultingSection = () => {
               <h5 className="font-bold text-4xl h-[80px] xl:text-[44px] mb-4 mundial-font">{tString('consulting.header2')}</h5>
               <ul className=" max-w-[650px] 3xl:w-[770px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-4 items-center">
-                  <div className="relative bottom-1 min-w-2 Rectangle-1469"></div>
+                  <div className="relative min-w-2 Rectangle-1469"></div>
                   <a className="mundial-font  leading-[28px]">{tString('consulting.dot2a')}</a>
                 </li>
                 <li className="flex gap-4 items-center">

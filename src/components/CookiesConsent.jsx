@@ -61,30 +61,31 @@ const CookieConsent = () => {
                 position="bottom"
                 onHide={() => setVisible(false)}
                 style={{ width: '100%' }}
-                className="bg-[#f1f1f1] px-5 pt-5 flex m-0 gap-8"
+                closeIcon={<img src="/images/closeIcon.svg" alt="Close" />}
+                className="bg-[#f1f1f1] px-5 pt-5 flex m-0 gap-8 mundial-regular"
                 footer={
                     <div className="flex flex-col md:flex-row py-4 gap-4">
                         <button
                             onClick={acceptCookies}
-                            className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
-                        >
-                            <span className="relative" style={{ top: '2px' }}>
+                            className="flex justify-center gap-4 items-center sm:w-[300px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
+                            >
+                            <span className="mundial-regular relative" style={{ top: '2px' }}>
                                 {tString('cookiesCon.acceptAll')}
                             </span>
                         </button>
                         <button
                             onClick={rejectCookies}
-                            className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
-                        >
-                            <span className="relative" style={{ top: '2px' }}>
+                            className="flex justify-center gap-4 items-center sm:w-[250px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
+                            >
+                            <span className="mundial-regular relative" style={{ top: '2px' }}>
                                 {tString('cookiesCon.reject')}
                             </span>
                         </button>
                         <button
                             onClick={openSettings}
-                            className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
-                        >
-                            <span className="relative" style={{ top: '2px' }}>
+                            className="flex justify-center gap-4 items-center sm:w-[300px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
+                            >
+                            <span className="mundial-regular relative" style={{ top: '2px' }}>
                                 {tString('cookiesCon.settings')}
                             </span>
                         </button>
@@ -108,6 +109,7 @@ const CookieConsent = () => {
                 position="center"
                 onHide={() => setSettingsVisible(false)}
                 style={{ width: '80%' }}
+                closeIcon={<img src="/images/closeIcon.svg" alt="Close" />}
                 className="flex gap-4  rounded-xl bg-[#f1f1f1] px-5 pt-5 m-0"
                 footer={
                     <>
@@ -115,15 +117,15 @@ const CookieConsent = () => {
                         <div className="flex flex-row py-4 gap-4">
                             <button
                                 onClick={saveSettings}
-                                className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
-                            >
-                                <span className="relative" style={{ top: '2px' }}>{tString('privacy.saveChanges')}</span>
+                                className="flex justify-center gap-4 items-center sm:w-[300px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
+                                >
+                                <span className="mundial-regular  relative" style={{ top: '2px' }}>{tString('privacy.saveChanges')}</span>
                             </button>
                             <button
                                 onClick={() => setAnalyticsCookies(true)}
-                                className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
-                            >
-                                <span className="relative" style={{ top: '2px' }}>{tString('privacy.enableAll')}</span>
+                                className="flex justify-center gap-4 items-center sm:w-[300px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
+                                >
+                                <span className=" mundial-regular  relative" style={{ top: '2px' }}>{tString('privacy.enableAll')}</span>
                             </button>
                         </div>
                     </>

@@ -26,19 +26,19 @@ const InteriorOffer = () => {
         <div className="text-center lg:text-left flex flex-col gap-4 lg:gap-6">
           <ul className="flex flex-col gap-4 text-left max-w-full text-[24px]">
             <li className="flex gap-4 items-start">
-              <div className="relative bottom-1 min-w-2 Rectangle-1469 top-[5px]"></div>
+              <div className="relative  min-w-2 Rectangle-1469 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot1a')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative leading-normal min-w-2 Rectangle-1469 top-[5px]"></div>
+              <div className="relative leading-normal min-w-2 Rectangle-1469 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot1b')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative Rectangle-1469 min-w-2 top-[5px]"></div>
+              <div className="relative Rectangle-1469 min-w-2 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot1c')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative Rectangle-1469 min-w-2 top-[5px]"></div>
+              <div className="relative Rectangle-1469 min-w-2 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot1d')}</a>
             </li>
           </ul>
@@ -55,27 +55,27 @@ const InteriorOffer = () => {
         <div className="text-center lg:text-left flex flex-col gap-4 lg:gap-6">
           <ul className="flex flex-col gap-4 text-left max-w-full text-[24px]">
             <li className="flex gap-4 items-start">
-              <div className="relative bottom-1 min-w-2 Rectangle-1469 top-[5px]"></div>
+              <div className="relative bottom-1 min-w-2 Rectangle-1469 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot2a')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative leading-normal min-w-2 Rectangle-1469 top-[5px]"></div>
+              <div className="relative leading-[28px] min-w-2 Rectangle-1469 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot2b')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative Rectangle-1469 min-w-2 top-[5px]"></div>
+              <div className="relative Rectangle-1469 min-w-2 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot2c')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative Rectangle-1469 min-w-2 top-[5px]"></div>
+              <div className="relative Rectangle-1469 min-w-2 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot2d')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative Rectangle-1469 min-w-2 top-[5px]"></div>
+              <div className="relative Rectangle-1469 min-w-2 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot2e')}</a>
             </li>
             <li className="flex gap-4 items-start">
-              <div className="relative Rectangle-1469 min-w-2 top-[5px]"></div>
+              <div className="relative Rectangle-1469 min-w-2 top-[12px]"></div>
               <a className="mundial-regular">{tString('interiorOffer.dot2f')}</a>
             </li>
           </ul>

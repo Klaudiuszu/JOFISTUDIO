@@ -32,11 +32,11 @@ const ConsultationMain = () => {
                             <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                                 <li className="flex gap-y-4  items-center">
                                     <div className="relative"></div>
-                                    <a className="lg:w-[700px] leading-normal">{tString('furniture.info1')}</a>
+                                    <a className="lg:w-[700px] leading-[28px]">{tString('furniture.info1')}</a>
                                 </li>
                                 <li className="flex gap-y-4  items-center">
                                     <div className="relative"></div>
-                                    <a className="lg:w-[700px] leading-normal">{tString('email.step0')}</a>
+                                    <a className="lg:w-[700px] leading-[28px]">{tString('email.step0')}</a>
                                 </li>
                             </ul>
                         </div>

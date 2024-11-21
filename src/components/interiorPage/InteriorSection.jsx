@@ -35,7 +35,9 @@ const InteriorSection = () => {
               >
                 {tString('interior.info')}
               </h4>
-              <a href="https://www.instagram.com/jofi_studio" className="flex items-center justify-center py-2 text-black rounded-md text-[22px] font-thin underline underline-offset-8">
+              <a href="https://www.instagram.com/jofi_studio" 
+                              className="flex items-center justify-center py-2 uppercase text-black rounded-md text-[22px] font-thin underline underline-offset-8 mundial-Light"
+              >
                 {tString('realisation.button')}
               </a>
             </div>

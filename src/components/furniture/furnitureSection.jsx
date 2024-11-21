@@ -50,7 +50,7 @@ const FurnitureSection = () => {
               <ul className=" max-w-[650px] 3xl:max-w-[750px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-y-4  items-center">
                   <div className="relative"></div>
-                  <a className="lg:w-[680px] 3xl:w-[1000px] leading-normal xl:pt-[60px] 3xl:pt-[50px] mundial-font">
+                  <a className="lg:w-[680px] 3xl:w-[1000px] leading-[28px] xl:pt-[60px] 3xl:pt-[50px] mundial-font">
                     {tString("furniture.info1")}
                   </a>
                 </li>
@@ -72,15 +72,15 @@ const FurnitureSection = () => {
               <ul className=" lg:w-[600px] max-w-[650px] 3xl:max-w-[740px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left 3xl:w-[740px]">
                 <li className="flex gap-4 items-start">
                   <div className="relative top-[12px] bottom-1 min-w-2 Rectangle-1469"></div>
-                  <a className="leading-normal mundial-font">{tString("furniture.dot2a")}</a>
+                  <a className="leading-[28px] mundial-font">{tString("furniture.dot2a")}</a>
                 </li>
                 <li className="flex gap-4 items-start">
                   <div className="relative top-[12px] min-w-2 Rectangle-1469"></div>
-                  <a className="leading-normal mundial-font">{tString("furniture.dot2b")}</a>
+                  <a className="leading-[28px] mundial-font">{tString("furniture.dot2b")}</a>
                 </li>
                 <li className="flex gap-4 items-start">
                   <div className="relative top-[12px] Rectangle-1469 min-w-2"></div>
-                  <a className="leading-normal mundial-font">{tString("furniture.dot2c")}</a>
+                  <a className="leading-[28px] mundial-font">{tString("furniture.dot2c")}</a>
                 </li>
               </ul>
             </div>

@@ -15,8 +15,8 @@ const EmailSection = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_fwq83rq', 'template_5ks9aoo', form.current, {
-        publicKey: 'b44RX4pzTxODqRBRS',
+      .sendForm('service_2jgdy5b', 'template_6udbhov', form.current, {
+        publicKey: 'k1_yYXTUCICFZAjt0',
       })
       .then(
         () => {
@@ -99,7 +99,7 @@ const EmailSection = () => {
                   <textarea
                     name="message"
                     id="subject"
-                    className="border bg-[#EEECEC] placeholder-[#171717] text-[#171717] h-40 md:h-[500px] text-sm block w-full p-2.5"
+                    className="border bg-[#EEECEC] placeholder-[#171717] text-[#171717] h-40 md:h-[370px] text-sm block w-full p-2.5"
                   />
                 </div>
                 <button
