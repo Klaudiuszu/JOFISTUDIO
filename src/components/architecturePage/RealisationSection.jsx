@@ -25,23 +25,24 @@ const RealisationSection = () => {
               className="w-4/5 h-auto max-w-[500px] xl:max-w-[600px]"
             />
           </div>
-          <div className="order-2 xl:order-1 col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-4 lg:px-16 text-[#171717] relative xl:top-[450px]">
-            <div className="flex flex-col justify-between md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left w-full lg:h-[500px]">
+          <div className="order-2 xl:order-1 col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-6 xl:p-[64px] lg:px-16 text-[#171717] relative xl:top-[450px]">
+            <div className="flex flex-col justify-between md:text-5xl text-4xl items-center md:gap-[64px] lg:items-start text-center mt-4 lg:text-left w-full">
               <h5
-                className="text-left uppercase md:text-custom-85 mb-2 hatton-light"
+                className="text-left uppercase md:text-custom-85 mb-2 2xl:mb-0 hatton-light 2xl:top-[10px] relative"
                 style={{ letterSpacing: "-2px" }}
               >
                 {tString("realisation.header")}
               </h5>
               <h4
                 style={{ lineHeight: "normal" }}
-                className="text-center sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 2xl:pb-[30px] mundial-Light 3xl:w-[600px]"
+                className="text-left sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 mundial-font 3xl:w-[600px]"
               >
                 {tString("realisation.info")}
               </h4>
               <a
                 href="https://www.instagram.com/jofi_studio"
-                className="flex items-center justify-center py-2 uppercase text-black rounded-md text-[22px] font-thin underline underline-offset-8 mundial-Light"
+                className="flex items-center justify-center py-2 uppercase text-black rounded-md text-[20px] font-thin underline underline-offset-8 mundial-Light"
+                style={{fontSize: '20px !important'}}
               >
                 {tString("realisation.button")}
               </a>

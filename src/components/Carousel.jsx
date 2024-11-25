@@ -56,7 +56,7 @@ const Carousel = () => {
             <div className='relative bottom-1/2 max-w-[1715px] left-1/2 pt-4 translate-x-[-50%]'>
                 <button
                     type="button"
-                    className="absolute top-0 left-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    className="absolute top-0 left-0 flex items-center justify-center h-full px-6 cursor-pointer group focus:outline-none"
                     onClick={prevSlide}
                 >
                     <span className="inline-flex items-center justify-center md:w-[58px] w-10 h-10 md:h-[58px] rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60">
@@ -74,7 +74,7 @@ const Carousel = () => {
                 </button>
                 <button
                     type="button"
-                    className="absolute top-0 right-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    className="absolute top-0 right-0 flex items-center justify-center h-full px-6 cursor-pointer group focus:outline-none"
                     onClick={nextSlide}
                 >
                     <span className="inline-flex items-center justify-center md:w-[58px] w-10 h-10 md:h-[58px] rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60">

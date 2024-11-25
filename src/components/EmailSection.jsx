@@ -35,7 +35,7 @@ const EmailSection = () => {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex flex-col lg:mt-[80px] mt-10 lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-4 lg:gap-16 lg:px-16 3xl:px-0 text-[#171717]">
+        <div className="flex flex-col lg:mt-[80px] mt-10 lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-6 lg:gap-16 lg:px-16 3xl:px-0 text-[#171717]">
           <div className="justify-center items-start md:text-5xl text-4xl text-center gap-4 mt-4 lg:text-left flex flex-col h-full">
             <h2 className="md:text-custom-85 mb-4" style={{ letterSpacing: '-2px' }}>{tString('email.header')}</h2>
             <h3 className=" lg:px-0 sm:px-16 text-[20px] md:text-[28px] leading-[28px] normal-case mundial-font text-left 3xl:w-[1380px]">
@@ -47,7 +47,7 @@ const EmailSection = () => {
           </div>
         </div>
         <div className="flex flex-col lg:grid gap-8 lg:grid-cols-2 items-center sm:py-8 pb-8 lg:gap-16 lg:px-16 3xl:px-0">
-          <div className="justify-start md:text-5xl text-4xl px-4 items-center lg:items-start text-center gap-4 lg:text-left flex flex-col h-full">
+          <div className="justify-start md:text-5xl text-4xl px-6 items-center lg:items-start text-center gap-4 lg:text-left flex flex-col h-full">
             <p className="font-bold mb-5 mundial-font leading-[28px] lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
               {tString('email.step0A')}
             </p>
@@ -67,7 +67,7 @@ const EmailSection = () => {
                 {tString('email.sent-mail')}
               </h1>
             ) : (
-              <form className="flex flex-col w-full px-4" ref={form} onSubmit={sendEmail}>
+              <form className="flex flex-col w-full px-6" ref={form} onSubmit={sendEmail}>
                 <div className="mb-6">
                   <h6 className="relative mb-2 leading-[28px] lg:px-0 mundial-font sm:px-16 md:text-[24px] text-base text-left">
                     {tString('email.name')}

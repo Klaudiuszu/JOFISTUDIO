@@ -13,7 +13,7 @@ const ProjectCard = ({ imgUrl, title, cardButtonTitle, path }) => {
           }}
         ></div>
       </div>
-      <div className="rounded-b-xl mt-3 px-4 flex flex-col items-center gap-[5px]">
+      <div className="rounded-b-xl mt-3 px-6 flex flex-col items-center gap-[5px]">
         <h2 className="flex gap-[5px] max-w-5xl md:text-[65px] text-4xl leading-normal mb-[-10px]" style={{letterSpacing: '-2px'}}>{title}</h2>
         <TextArrow
           buttonText={cardButtonTitle}

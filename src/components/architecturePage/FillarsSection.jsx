@@ -35,7 +35,7 @@ const FillarSection = () => {
           </div>
         </div>
       </motion.div>
-      <div className="flex flex-col gap-3 px-4 w-full 3xl:w-[1440px] 3xl:px-0 h-full xs:pb-16">
+      <div className="flex flex-col gap-3 px-6 w-full 3xl:w-[1440px] 3xl:px-0 h-full xs:pb-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:px-16 3xl:px-0 3xl:h-[520px] 3xl:pl-[5px] h-full lg:pb-[50px] 3xl:gap-y-[5rem]">
           {/* Item 1 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center xl:h-[260px] min-w-[280px] relative sm:text-left sm:flex-row px-1 3xl:h-[238px]">
