@@ -63,7 +63,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
-      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-4 xl:px-[16px] 2xl:px-[0] py-2 relative ">
+      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-6 xl:px-[16px] 2xl:px-[0] py-2 relative ">
         <div className="flex w-screen items-center">
           <div className="flex-1 flex items-center xl:justify-start justify-start relative">
             <button

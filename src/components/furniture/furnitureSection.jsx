@@ -42,7 +42,7 @@ const FurnitureSection = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="flex flex-col lg:mt-[80px] lg:grid lg:grid-cols-2 items-center py-8 lg:gap-72 lg:gap-y-0 mx-auto mt-10 3xl:mt-[110px]">
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
+          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 px-6 lg:pl-16 text-[#171717] 3xl:pl-0">
             <div className="justify-center md:text-5xl text-4xl items-center gap-4 3xl:gap-0 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
               <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 text-center xl:leading-[87px] h-[80px]">
                 {tString("furniture.header1")}
@@ -64,7 +64,7 @@ const FurnitureSection = () => {
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0 3xl:top-[75px] relative">
+          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 px-6 lg:pl-16 text-[#171717] 3xl:pl-0 3xl:top-[75px] relative">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px]">
               <h5 className="font-bold lg:w-[600px] text-4xl h-[80px] xl:text-[44px] mb-4 hatton-light">
                 {tString("furniture.header2")}

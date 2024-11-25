@@ -26,17 +26,18 @@ const InteriorSection = () => {
               className="w-full h-auto max-w-[500px]"
             />
           </div>
-          <div className="col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-4 lg:px-16 text-[#171717] relative xl:top-[450px]">
-            <div className="flex flex-col justify-between md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left w-full lg:h-[500px]">
-              <h5 className="text-left uppercase md:text-custom-85 mb-2">{tString('interior.header')}</h5>
+          <div className="col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-4 2xl:p-[64px] lg:px-16 text-[#171717] relative xl:top-[490px]">
+            <div className="flex flex-col justify-between md:text-5xl text-4xl items-center lg:items-start text-center mt-4 xl:mt-0 lg:text-left w-full md:gap-[64px]">
+              <h5 className="text-left uppercase md:text-custom-85 mb-2 2xl:top-[10px]">{tString('interior.header')}</h5>
               <h4
                 style={{ lineHeight: "normal" }}
-                className=" text-center sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 mundial-Light"
+                className=" text-left sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 mundial-font"
               >
                 {tString('interior.info')}
               </h4>
               <a href="https://www.instagram.com/jofi_studio" 
-                              className="flex items-center justify-center py-2 uppercase text-black rounded-md text-[22px] font-thin underline underline-offset-8 mundial-Light"
+                              className="flex items-center justify-center py-2 uppercase text-black rounded-md text-[20px] underline underline-offset-8 mundial-Light"
+                              style={{fontSize: '20px !important'}}
               >
                 {tString('realisation.button')}
               </a>

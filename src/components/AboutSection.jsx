@@ -41,7 +41,7 @@ const AboutSection = () => {
         transition={{ duration: 0.5 }}
         className="flex justify-center py-[94px]"
       >
-        <div className="flex flex-col lg:grid gap-8 h-full lg:grid-cols-2 items-center pt-8 lg:py-0 px-4 lg:gap-0 lg:px-0  text-[#171717] relative">
+        <div className="flex flex-col lg:grid gap-8 h-full lg:grid-cols-2 items-center pt-8 lg:py-0 px-6 lg:gap-0 lg:px-0  text-[#171717] relative">
           <div className="justify-center md:text-5xl text-4xl items-center lg:items-start text-center gap-[15px] lg:gap-14 mt-4 xl:pr-[96px] lg:text-left flex flex-col h-full">
             <h2 className="font-thin md:text-custom-85 relative leading-tight xl:leading-[87px] xl:bottom-[12px]" style={{letterSpacing: '-2px'}}>{tString('about.header')}</h2>
             <h4 className="relative  lg:px-0 lg:w-[580px] sm:px-16 md:top-[5px] md:text-[24px] md:pb-[6px] text-base text-left mundial-font">

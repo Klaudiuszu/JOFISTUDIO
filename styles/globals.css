@@ -75,6 +75,10 @@ h5 {
     font-size: 39px;
 }
 
+.font-PPHatton-medium {
+    font-family: 'PPHatton-Mendium';
+}
+
 h6 {
     font-family: 'PPHatton-Light';
     font-size: 24px;
@@ -93,7 +97,7 @@ li {
 }
 
 .textButton {
-    font-size: 22px;
+    font-size: 20px;
     border-bottom: 2px solid;
     line-height: 25px;
 }
@@ -118,7 +122,6 @@ li {
 
 .mundial-Light {
     font-family: 'mundial-Light';
-    font-size: 26px;
 }
 .mundial-Light-font {
     font-family: 'mundial-Light' !important;
