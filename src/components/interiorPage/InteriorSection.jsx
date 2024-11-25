@@ -26,7 +26,7 @@ const InteriorSection = () => {
               className="w-full h-auto max-w-[500px]"
             />
           </div>
-          <div className="col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-4 2xl:p-[64px] lg:px-16 text-[#171717] relative xl:top-[490px]">
+          <div className="col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-4 xl:p-[64px] lg:px-16 text-[#171717] relative xl:top-[490px]">
             <div className="flex flex-col justify-between md:text-5xl text-4xl items-center lg:items-start text-center mt-4 xl:mt-0 lg:text-left w-full md:gap-[64px]">
               <h5 className="text-left uppercase md:text-custom-85 mb-2 2xl:top-[10px]">{tString('interior.header')}</h5>
               <h4
