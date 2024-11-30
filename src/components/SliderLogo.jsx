@@ -142,10 +142,10 @@ const SliderLogo = () => {
   }, []);
 
   return (
-    <div ref={refSize} className='w-full flex flex-col gap:0 xl:gap-[11px] h-[400px] md:h-[757px] justify-center items-center px-[16px] sm:px-[64px]'>
-      <section className="w-full flex max-w-screen-2xl flex-col justify-center items-center  3xl:pl-[0]">
+    <div ref={refSize} className='w-full flex flex-col gap:0 xl:gap-[11px] h-[auto] md:h-[auto] justify-center py-[82px] xl:py-[200px] items-center px-[16px] sm:px-[64px]'>
+      <section className="w-full flex max-w-screen-2xl flex-col justify-center items-center 3xl:pl-[0] md:pt-0 pb-[10px] md:pb-[18px]">
         <div className="left-0 w-full">
-          <div className="flex flex-col lg:grid md:text-5xl text-4xl gap-8 lg:grid-cols-1 pt-8 lg:gap-16">
+          <div className="flex flex-col lg:grid md:text-5xl text-4xl gap-8 lg:grid-cols-1 lg:gap-16">
             <h2 style={{letterSpacing: '-2px'}} className="md:text-custom-85 flex justify-center xl:leading-[87px] xl:justify-start pl-[0] xl:pl-[120px] 3xl:pl-[0]">{tString('section4.header')}</h2>
           </div>
         </div>
