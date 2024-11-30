@@ -26,7 +26,7 @@ const Consultation = () => {
               {tString('consultation.header')}
             </h2>
           </div>
-          <h4 className="text-center text-[20px] mb-[28px] pt-[18px] uppercase mundial-font 3xl:w-[1100px]">
+          <h4 className="text-center text-[20px] md:text-[24px] mb-[28px] pt-[18px] uppercase mundial-font 3xl:w-[1100px]">
             {tString('consultation.info')}
           </h4>
           <div className="gap-2 uppercase mundial-font relative cursor-pointer text-[20px] justify-center flex bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-[10px] px-[29px]">
