@@ -102,13 +102,13 @@ const Footer = () => {
                                 <ul className=" font-thin">
                                     <li className="mb-4 flex gap-5">
                                         <a href="https://www.facebook.com/profile.php?id=61565497494822">
-                                            <img src="/images/fb.png" className=" w-136 h-[20px]" />
+                                            <img src="/images/fb.png" className=" w-136 h-[20px] xl:h-8" />
                                         </a>
                                         {<a href="https://www.instagram.com/jofi_studio/">
-                                            <img src="/images/inst.png" className=" w-136 h-[20px]" />
+                                            <img src="/images/inst.png" className=" w-136 h-[20px] xl:h-8" />
                                         </a>}
                                         <a href="https://www.linkedin.com/company/jofi-studio/">
-                                            <img src="/images/linkedin.png" className=" w-136 h-[20px]" />
+                                            <img src="/images/linkedin.png" className=" w-136 h-[20px] xl:h-8" />
                                         </a>
                                     </li>
                                 </ul>

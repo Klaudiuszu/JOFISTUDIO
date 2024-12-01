@@ -28,7 +28,7 @@ const InteriorSection = () => {
           </div>
           <div className="order-2 xl:order-1 col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-[82px] px-6 xl:p-[64px] lg:px-16 text-[#171717] relative xl:top-[490px]">
             <div className="flex flex-col justify-between md:text-5xl text-4xl items-center lg:items-start text-center gap-[18px] xl:mt-0 lg:text-left w-full md:gap-[64px]">
-              <h5 className="text-left uppercase md:text-custom-85 2xl:top-[10px]">{tString('interior.header')}</h5>
+              <h5 className="hatton-light text-left uppercase md:text-custom-85 2xl:top-[10px]">{tString('interior.header')}</h5>
               <h4
                 style={{ lineHeight: "normal" }}
                 className=" text-left sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0 mundial-font"

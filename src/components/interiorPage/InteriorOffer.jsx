@@ -17,14 +17,14 @@ const InteriorOffer = () => {
     whileInView={{ opacity: [0, 1] }}
     transition={{ duration: 0.5 }}
   >
-    <div className="flex flex-col lg:grid lg:grid-cols-1 items-center pl-4 pr-4 lg:pl-16 xl:pt-[200px] xl:pb-[50px] text-[#171717] pt-[82px] pb-[82px] gap-[18px]">
+    <div className="flex flex-col lg:grid lg:grid-cols-2 items-center pl-4 pr-4 lg:pl-16 xl:pt-[200px] xl:pb-[50px] text-[#171717] pt-[82px] pb-[82px] gap-[18px]">
       {/* Left Column */}
       <div className="justify-start md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center lg:text-left flex flex-col h-full lg:h-[500px]">
-        <h5 className="font-PPHatton-medium text-[32px] xl:text-[39px] md:w-[650px]">
+        <h5 className="font-PPHatton-medium text-[32px] xl:text-[39px] xl:h-[80px] md:w-[650px]">
           {tString('interiorOffer.header1')}
         </h5>
         <div className="text-center lg:text-left flex flex-col gap-4 lg:gap-6">
-          <ul className="flex flex-col gap-4 text-left max-w-full text-[16px] md:text-[24px] px-12 leading-normal">
+          <ul className="flex flex-col gap-4 text-left max-w-full text-[16px] md:text-[24px] px-12 xl:px-0 leading-normal">
             <li className="flex gap-4 items-start">
               <div className="relative  min-w-2 Rectangle-1469 top-[8px]"></div>
               <a className="mundial-Light-font">{tString('interiorOffer.dot1a')}</a>
@@ -49,11 +49,11 @@ const InteriorOffer = () => {
       </div>
       {/* Right Column */}
       <div className="justify-start md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center lg:text-left flex flex-col h-full lg:h-[500px]">
-        <h5 className="font-PPHatton-medium text-[32px] xl:text-[39px] max-w-full">
+        <h5 className="font-PPHatton-medium text-[32px] xl:text-[39px] xl:h-[80px] max-w-full">
           {tString('interiorOffer.header2')}
         </h5>
         <div className="text-center lg:text-left flex flex-col gap-4 lg:gap-6">
-          <ul className="flex flex-col gap-4 text-left max-w-full text-[16px] md:text-[24px] px-12 leading-normal">
+          <ul className="flex flex-col gap-4 text-left max-w-full text-[16px] md:text-[24px] px-12 xl:px-0 leading-normal">
             <li className="flex gap-4 items-start">
               <div className="relative bottom-1 min-w-2 Rectangle-1469 top-[8px]"></div>
               <a className="mundial-Light-font">{tString('interiorOffer.dot2a')}</a>

@@ -37,10 +37,10 @@ const ConsultingSection = () => {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex flex-col xl:mt-[80px] xl:grid xl:grid-cols-2 items-center py-8 3xl:pb-[100px] 3xl:mt-[180px] xl:gap-y-0 mx-auto mt-10 3xl:items-end 3xl:gap-x-28">
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 px-6 lg:pl-16 text-[#171717] 3xl:pl-0 3xl:pb-0">
-            <div className="justify-center md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px] 3xl:h-[330px]">
-              <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 text-center leading-normal xl:leading-[87px] h-[80px]">
+        <div className="flex flex-col xl:mt-[80px] xl:grid xl:grid-cols-2 items-center 3xl:pb-[100px] 3xl:mt-[180px] xl:gap-y-0 mx-auto mt-10 3xl:items-end 3xl:gap-x-28 py-[82px]">
+          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center px-6 lg:pl-16 text-[#171717] 3xl:pl-0 3xl:pb-0">
+            <div className="justify-center md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center lg:text-left flex flex-col h-full lg:h-[500px] 3xl:h-[330px]">
+              <h2 style={{letterSpacing: '-2px'}} className="xl:text-custom-85 text-custom-36 text-center leading-normal xl:leading-[87px]">
                 {tString('consulting.header1')}
               </h2>
               <ul className=" max-w-[650px] 3xl:max-w-[770px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
@@ -52,41 +52,41 @@ const ConsultingSection = () => {
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 text-[#171717]">
-            <div className="justify-center md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px] 3xl:h-[330px] 3xl:items-center 3xl:relative 3xl:left-10">
+          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center pl-4 pr-4 text-[#171717]">
+            <div className="justify-center md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px] 3xl:h-[330px] 3xl:items-center 3xl:relative 3xl:left-10">
               <img className="relative 3xl:top-6" src="/images/consulting.png" alt="Consulting" />
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
-            <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left 3xl:pt-[20px] flex flex-col h-full lg:h-[600px]">
-              <h5 className="text-4xl h-[80px] xl:text-[44px] mb-4 font-PPHatton-medium leading-normal">{tString('consulting.header2')}</h5>
-              <ul className=" max-w-[650px] 3xl:w-[770px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
-                <li className="flex gap-4 items-center">
+          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
+            <div className="justify-start md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center mt-4 lg:text-left 3xl:pt-[20px] flex flex-col h-full lg:h-[600px]">
+              <h5 className="text-[32px] xl:text-[44px] font-PPHatton-medium leading-normal xl:h-[80px]">{tString('consulting.header2')}</h5>
+              <ul className=" max-w-[650px] 3xl:w-[770px] gap-[18px] flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
+                <li className="flex gap-[18px] items-center">
                   <div className="relative min-w-2 Rectangle-1469"></div>
                   <a className="mundial-font  leading-[28px]">{tString('consulting.dot2a')}</a>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-[18px] items-center">
                   <div className="relative min-w-2 Rectangle-1469"></div>
                   <a className=" leading-[28px] mundial-font">{tString('consulting.dot2b')}</a>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-[18px] items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
                   <a className="leading-normal mundial-font">{tString('consulting.dot2c')}</a>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-[18px] items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
                   <a className="leading-[28px] mundial-font">{tString('consulting.dot2d')}</a>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-[18px] items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
                   <a className="leading-[28px] mundial-font">{tString('consulting.dot2e')}</a>
                 </li>
-                <li className="flex gap-4 items-start">
+                <li className="flex gap-[18px] items-start">
                   <div className="relative top-3 Rectangle-1469 min-w-2"></div>
                   <a className="leading-[28px] mundial-font">{tString('consulting.dot2f')}</a>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-[18px] items-center">
                   <div className="relative Rectangle-1469 min-w-2"></div>
                   <a className="leading-[28px] mundial-font">{tString('consulting.dot2g')}</a>
                 </li>
@@ -94,9 +94,9 @@ const ConsultingSection = () => {
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center py-8 px-6 lg:pl-16 3xl:pl-0 text-[#171717] 3xl:pt-[20px] 3xl:relative 3xl:w-[700px]">
-            <div className="md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px] 3xl:pt-[30px] justify-start">
-              <h5 className="text-4xl xl:text-[44px] font-PPHatton-medium mb-4 leading-normal">{tString('consulting.header3')}</h5>
+          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center pt-[82px] md:pt-0 px-6 lg:pl-16 3xl:pl-0 text-[#171717] 3xl:pt-[20px] 3xl:relative 3xl:w-[700px]">
+            <div className="md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px] justify-start">
+              <h5 className="text-[32px] xl:text-[44px] font-PPHatton-medium leading-normal xl:h-[160px]">{tString('consulting.header3')}</h5>
               <ul className=" max-w-[630px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-y-4 items-center">
                   <div className="relative"></div>
