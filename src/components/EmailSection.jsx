@@ -37,7 +37,7 @@ const EmailSection = () => {
       >
         <div className="flex flex-col mt-10 lg:grid gap-[18px] lg:grid-cols-1 items-center px-6 lg:gap-16 lg:px-16 3xl:px-0 text-[#171717]">
           <div className="justify-center items-start xl:text-5xl text-4xl text-center gap-[18px] mt-4 lg:text-left flex flex-col h-full">
-            <h2 className="xl:text-custom-85" style={{ letterSpacing: '-2px' }}>{tString('email.header')}</h2>
+            <h2 className="xl:text-custom-85 w-full xl:w-auto" style={{ letterSpacing: '-2px' }}>{tString('email.header')}</h2>
             <h3 className=" lg:px-0 sm:px-16 text-[16px] xl:text-[24px] leading-[24px] normal-case mundial-font text-left 3xl:w-[1380px]">
               {tString('email.info')}
             </h3>
