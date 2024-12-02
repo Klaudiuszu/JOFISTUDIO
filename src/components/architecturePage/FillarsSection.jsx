@@ -40,8 +40,8 @@ const FillarSection = () => {
           {/* Item 1 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center xl:h-[260px] min-w-[280px] relative sm:text-left sm:flex-row px-1 3xl:h-[238px]">
             <div className="h-full relative 3xl:top-[4px] bottom-[10px] xl:bottom-[5px]">
-              <div className="w-[39px] h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
-                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px]" style={{ top: "9px" }}>1</h2>
+              <div className="w-[32px] h-[32px] xl:w-[39px] xl:h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
+                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px] xl:top-[9px] top-[7px]">1</h2>
               </div>
             </div>
             <div className="flex flex-col items-start 3xl:absolute 3xl:top-[15px] static left-16 top-0 text-left gap-2 pl-[10px]">
@@ -52,8 +52,8 @@ const FillarSection = () => {
           {/* Item 2 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center xl:h-[260px] 3xl:h-[238px] min-w-[300px] relative sm:text-left sm:flex-row px-1">
             <div className="h-full relative 3xl:top-[4px] bottom-[10px] xl:bottom-[5px]">
-              <div className="w-[39px] h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
-                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px]" style={{ top: "9px" }}>2</h2>
+              <div className="w-[32px] h-[32px] xl:w-[39px] xl:h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
+                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px] xl:top-[9px] top-[7px]">2</h2>
               </div>
             </div>
             <div className="flex flex-col items-start 3xl:absolute 3xl:top-[15px] static left-16 top-0 text-left gap-2 pl-[10px]">
@@ -64,8 +64,8 @@ const FillarSection = () => {
           {/* Item 3 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center xl:h-[260px] 3xl:h-[238px] min-w-[300px] xl:w-[352px] relative sm:text-left sm:flex-row px-1">
             <div className="h-full relative 3xl:top-[4px] bottom-[10px] xl:bottom-[5px]">
-              <div className="w-[39px] h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
-                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px]" style={{ top: "9px" }}>3</h2>
+              <div className="w-[32px] h-[32px] xl:w-[39px] xl:h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
+                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px] xl:top-[9px] top-[7px]">3</h2>
               </div>
             </div>
             <div className="flex flex-col items-start 3xl:absolute 3xl:top-[15px] static left-16 top-0 text-left gap-2 pl-[10px]">
@@ -76,8 +76,8 @@ const FillarSection = () => {
           {/* Item 4 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center 3xl:h-[238px] min-w-[300px] relative sm:text-left sm:flex-row px-1">
             <div className="h-full relative 3xl:top-[4px] bottom-[10px] xl:bottom-[5px]">
-              <div className="w-[39px] h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
-                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px]" style={{ top: "9px" }}>4</h2>
+              <div className="w-[32px] h-[32px] xl:w-[39px] xl:h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
+                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px] xl:top-[9px] top-[7px]">4</h2>
               </div>
             </div>
             <div className="flex flex-col  items-start 3xl:absolute 3xl:top-[15px] static left-16 top-0 text-left gap-2 pl-[10px]">
@@ -88,8 +88,8 @@ const FillarSection = () => {
           {/* Item 5 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center 3xl:h-[238px] min-w-[300px] relative sm:text-left sm:flex-row px-1">
             <div className="h-full relative 3xl:top-[4px] bottom-[10px] xl:bottom-[5px]">
-              <div className="w-[39px] h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
-                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px]" style={{ top: "9px" }}>5</h2>
+              <div className="w-[32px] h-[32px] xl:w-[39px] xl:h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
+                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px] xl:top-[9px] top-[7px]">5</h2>
               </div>
             </div>
             <div className="flex flex-col items-start 3xl:absolute 3xl:top-[15px] static left-16 top-0 text-left gap-2 pl-[10px]">
@@ -100,8 +100,8 @@ const FillarSection = () => {
           {/* Item 6 */}
           <div className="flex flex-col xs:flex-row xs:gap-2 items-start 3xl:items-center text-center 3xl:h-[238px] min-w-[300px] relative sm:text-left sm:flex-row px-1">
             <div className="h-full relative 3xl:top-[4px] bottom-[10px] xl:bottom-[5px]">
-              <div className="w-[39px] h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
-                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px]" style={{ top: "9px" }}>6</h2>
+              <div className="w-[32px] h-[32px] xl:w-[39px] xl:h-[39px] relative top-2 bg-black flex items-start justify-center transform rotate-45 sm:mr-4">
+                <h2 className="text-white transform -rotate-45 relative mundial-Light-font text-[20px] xl:top-[9px] top-[7px]">6</h2>
               </div>
             </div>
             <div className="flex flex-col items-start 3xl:absolute 3xl:top-[15px] static left-16 top-0 text-left gap-2 pl-[10px]">
