@@ -17,7 +17,7 @@ const InteriorOffer = () => {
     whileInView={{ opacity: [0, 1] }}
     transition={{ duration: 0.5 }}
   >
-    <div className="flex flex-col lg:grid lg:grid-cols-2 items-center pl-4 pr-4 lg:pl-16 xl:pt-[200px] xl:pb-[150px] text-[#171717] pt-[82px] pb-[82px] gap-[18px]">
+    <div className="flex flex-col lg:grid lg:grid-cols-2 items-center pl-6 pr-6 lg:pl-16 xl:pt-[200px] xl:pb-[150px] text-[#171717] pt-[82px] pb-[82px] gap-[18px]">
       {/* Left Column */}
       <div className="justify-start md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center lg:text-left flex flex-col h-full lg:h-[500px]">
         <h5 className="font-PPHatton-medium text-[32px] xl:text-[39px] xl:h-[80px] md:w-[650px]">

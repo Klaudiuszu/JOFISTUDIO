@@ -41,7 +41,7 @@ const RealisationSection = () => {
               </h4>
               <a
                 href="https://www.instagram.com/jofi_studio"
-                className="flex items-center justify-center uppercase text-black rounded-md text-[20px] font-thin underline underline-offset-8 mundial-Light"
+                className="flex items-center justify-center uppercase textButtonInterior text-black rounded-md text-[20px] font-thin underline underline-offset-8 mundial-Light"
                 style={{fontSize: '20px !important'}}
               >
                 {tString("realisation.button")}

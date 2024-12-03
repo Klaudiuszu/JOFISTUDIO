@@ -58,7 +58,7 @@ const ConsultingSection = () => {
             </div>
             <div className="flex flex-col gap-3"></div>
           </div>
-          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center pl-4 pr-4 lg:pl-16 text-[#171717] 3xl:pl-0">
+          <div className="flex flex-col 3xl:h-[648px] lg:grid lg:grid-cols-1 items-center pl-6 pr-6 lg:pl-16 text-[#171717] 3xl:pl-0">
             <div className="justify-start md:text-5xl text-4xl items-center gap-[18px] lg:items-start text-center mt-4 lg:text-left 3xl:pt-[20px] flex flex-col h-full lg:h-[600px]">
               <h5 className="text-[32px] xl:text-[44px] font-PPHatton-medium leading-normal xl:h-[80px]">{tString('consulting.header2')}</h5>
               <ul className=" max-w-[650px] 3xl:w-[770px] gap-[18px] flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">

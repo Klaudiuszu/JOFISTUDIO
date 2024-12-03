@@ -106,6 +106,13 @@ li {
     color: #990000;
 }
 
+.textButtonInterior {
+    transition:  .3s;
+}
+.textButtonInterior:hover {
+    color: #990000;
+}
+
 .bg {
     position: absolute;
     z-index: -2;
