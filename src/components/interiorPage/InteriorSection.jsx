@@ -23,7 +23,7 @@ const InteriorSection = () => {
             <img
               src="/images/interiorImage.png"
               alt="Interior Image"
-              className="w-full h-auto max-w-[500px]"
+              className="w-full h-auto max-w-[500px] px-6 xl:px-8"
             />
           </div>
           <div className="order-2 xl:order-1 col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-[82px] px-6 xl:p-[64px] lg:px-16 text-[#171717] relative xl:top-[490px]">

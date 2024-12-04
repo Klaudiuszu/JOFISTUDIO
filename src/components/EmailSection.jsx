@@ -38,17 +38,17 @@ const EmailSection = () => {
         <div className="flex flex-col mt-10 lg:grid gap-[18px] lg:grid-cols-1 items-center px-6 lg:gap-16 lg:px-16 3xl:px-0 text-[#171717]">
           <div className="justify-center items-start xl:text-5xl text-4xl text-center gap-[18px] mt-4 lg:text-left flex flex-col h-full">
             <h2 className="xl:text-custom-85 w-full xl:w-auto" style={{ letterSpacing: '-2px' }}>{tString('email.header')}</h2>
-            <h3 className=" lg:px-0 sm:px-16 text-[16px] xl:text-[24px] leading-[24px] normal-case mundial-font text-left 3xl:w-[1380px]">
+            <h3 className=" lg:px-0 text-[16px] xl:text-[24px] leading-[24px] normal-case mundial-font text-left 3xl:w-[1380px]">
               {tString('email.info')}
             </h3>
-            <p className=" mb-[18px] font-bold mundial-font leading-[24px] lg:px-0 sm:px-16 xl:text-[24px] text-base text-left xl:mt-[28px] xl:mb-[48px]">
+            <p className=" mb-[18px] font-bold mundial-font leading-[24px] lg:px-0 xl:text-[24px] text-base text-left xl:mt-[28px] xl:mb-[48px]">
               {tString('email.step0')}
             </p>
           </div>
         </div>
         <div className="flex flex-col lg:grid gap-[18px] lg:grid-cols-2 items-center lg:gap-16 lg:px-16 3xl:px-0">
-          <div className="justify-start xl:text-5xl text-4xl px-6 items-center lg:items-start text-center gap-[18px] lg:text-left flex flex-col h-full">
-            <p className="font-bold mundial-font leading-[24px] lg:px-0 sm:px-16 xl:text-[24px] text-base text-left">
+          <div className="justify-start xl:text-5xl text-4xl px-6 lg:px-0 items-center lg:items-start text-center gap-[18px] lg:text-left flex flex-col h-full">
+            <p className="font-bold mundial-font leading-[24px] lg:px-0 xl:text-[24px] text-base text-left">
               {tString('email.step0A')}
             </p>
             <div>
@@ -78,7 +78,7 @@ const EmailSection = () => {
             ) : (
               <form className="flex flex-col w-full px-6 gap-[18px]" ref={form} onSubmit={sendEmail}>
                 <div>
-                  <h6 className="relative leading-[24px] lg:px-0 mundial-font sm:px-16 xl:text-[24px] text-base text-left pb-[4px]">
+                  <h6 className="relative leading-[24px] lg:px-0 mundial-font xl:text-[24px] text-base text-left pb-[4px]">
                     {tString('email.name')}
                   </h6>
                   <input
@@ -90,7 +90,7 @@ const EmailSection = () => {
                   />
                 </div>
                 <div>
-                  <h6 className="relative leading-[24px] lg:px-0 mundial-font sm:px-16 xl:text-[24px] text-base text-left  pb-[4px]">
+                  <h6 className="relative leading-[24px] lg:px-0 mundial-font xl:text-[24px] text-base text-left  pb-[4px]">
                     {tString('email.email')}
                   </h6>
                   <input
@@ -102,7 +102,7 @@ const EmailSection = () => {
                   />
                 </div>
                 <div>
-                  <h6 className="relative leading-[24px] lg:px-0 mundial-font sm:px-16 xl:text-[24px] text-base text-left  pb-[4px]">
+                  <h6 className="relative leading-[24px] lg:px-0 mundial-font xl:text-[24px] text-base text-left  pb-[4px]">
                     {tString('email.text')}
                   </h6>
                   <textarea
