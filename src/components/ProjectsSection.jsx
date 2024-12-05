@@ -46,7 +46,7 @@ const ProjectsSection = () => {
         {
             id: 4,
             title: tString('card.card4'),
-            image: "/images/doradztwo.png",
+            image: "/images/doradztwo.jpg",
             tag: ["All", "Web"],
             path:`/${language}/consulting`,
             previewUrl: 'consulting',

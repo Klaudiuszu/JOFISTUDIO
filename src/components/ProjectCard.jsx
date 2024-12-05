@@ -6,7 +6,7 @@ const ProjectCard = ({ imgUrl, title, cardButtonTitle, path }) => {
     <div className="project-card-wrapper flex flex-col justify-center xl:gap-[44px] pb-[50px]">
       <div className="relative rounded-t-xl flex overflow-hidden h-full w-full">
         <div
-          className="xl:h-[420px] xl:w-[620px] xl:h-68 h-auto w-full bg-cover bg-center"
+          className="xl:h-[420px] xl:w-[620px] xl:h-68 h-auto w-full bg-cover bg-bottom"
           style={{
             backgroundImage: `url(${imgUrl})`,
             paddingBottom: '60.25%'
