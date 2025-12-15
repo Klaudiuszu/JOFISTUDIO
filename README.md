@@ -9,7 +9,7 @@ The project was developed based on a **provided design specification**, with pre
 
 ## 🌐 Links
 
-- 🌍 Portfolio: [https://www.jofistudio.pl/)
+- 🌍 URL: https://www.jofistudio.pl/
 
 ---
 
