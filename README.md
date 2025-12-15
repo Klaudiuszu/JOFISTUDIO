@@ -6,6 +6,13 @@ The project was developed based on a **provided design specification**, with pre
 
 ---
 
+
+## 🌐 Links
+
+- 🌍 Portfolio: [https://www.jofistudio.pl/)
+
+---
+
 ## Technical Overview
 
 JofiStudio is implemented as a **multi-page Next.js application** using **React 18**, optimized for **static export (SSG)** while retaining flexibility for future server-side extensions.
