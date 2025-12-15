@@ -6,7 +6,6 @@ The project was developed based on a **provided design specification**, with pre
 
 ---
 
-
 ## 🌐 Links
 
 - 🌍 URL: https://www.jofistudio.pl/
